@@ -1,19 +1,19 @@
-%% USPSC-Cap2-Desenvolvimento.tex 
+%% WVU-Cap2-Development.tex 
 
 % ---
 % Este capítulo, utilizado por diferentes exemplos do abnTeX2, ilustra o uso de
 % comandos do abnTeX2 e de LaTeX.
 % ---
 
-\chapter{Desenvolvimento}\label{cap_exemplos}
-Este capítulo é parte principal do trabalho acadêmico e deve conter a exposição ordenada e detalhada do assunto. Divide-se em seções e subseções, em conformidade com a abordagem do tema e do método, abrangendo: revisão bibliográfica, materiais e métodos, técnicas utilizadas, resultados obtidos e discussão.
+\chapter{Development}\label{ch_development}
+This chapter is the main part of the scholarly work and should contain an orderly and detailed exposition of the subject. It is divided into sections and subsections, in accordance with the approach to the theme and method, covering: literature review, materials and methods, techniques used, results obtained and discussion.
 
-Abaixo são apresentados minimamente exemplos tabelas, quadros, divisões de documentos e outros itens. Consulte o \textbf{Tutorial do Pacote USPSC para modelos de trabalhos de acad\^emicos em LaTeX - vers\~ao 3.1} para demais informações. 
+Below are minimal examples of tables, charts, document divisions and other items.
 
 \section{Resultados de comandos}\label{sec-divisoes}
 
 % ---
-\subsection{Tabelas e quadros}
+\subsection{Tables and charts}
 
 O \textbf{Tutorial do Pacote USPSC para modelos de trabalhos de acad\^emicos em LaTeX - vers\~ao 3.1} apresenta orientações completas e diversas formatações de tabelas, dentre elas a \autoref{tab-ibge}, que é um exemplo de tabela alinhada que pode ser longa ou curta, conforme padrão do Instituto Brasileiro de Geografia e Estatística (IBGE).
 
@@ -46,7 +46,7 @@ O \textbf{Tutorial do Pacote USPSC para modelos de trabalhos de acad\^emicos em 
 \end{table}
 
 
-A formatação do quadro é similar à tabela, mas deve ter suas laterais fechadas e conter as linhas horizontais.
+The formatting of the chart is similar to the table, but it must have its sides closed and contain the horizontal lines.
 \newpage
 
 % o comando \newpage foi utilizado para forçar a quebra de página
@@ -70,16 +70,12 @@ A formatação do quadro é similar à tabela, mas deve ter suas laterais fechad
 		%\fonte{\citeonline{van1986}}
 		Fonte: \citeonline{van1986}
 	\end{flushleft}
-\end{quadro} 
-
-
-No \textbf{Tutorial do Pacote USPSC para modelos de trabalhos de acad\^emicos em LaTeX - vers\~ao 3.1} são apresentados mais exemplos de quadros.
+\end{quadro}
 
 % ---
-\subsection{Figuras}\label{sec_figuras}
+\subsection{Figures}\label{sec_figuras}
 % ---
-\index{figuras}Figuras podem ser criadas diretamente em \LaTeX,
-como o exemplo da \autoref{fig_circulo}. \\ 
+\index{figuras} Figures can be created directly in \LaTeX, like the example \autoref{fig_circulo}. \\ 
 
 \begin{figure}[htb]
 	\caption{\label{fig_circulo}A delimitação do espaço}
@@ -116,70 +112,65 @@ como o exemplo da \autoref{fig_circulo}. \\
 	\legend{Fonte: \citeonline{equipeabntex2}}
 \end{figure}
 
-Consulte o \textbf{Tutorial do Pacote USPSC para modelos de trabalhos de acad\^emicos em LaTeX - vers\~ao 3.1} para conhecer mais recursos referentes à figuras. 
-
 % ---
-\section{Divisões do documento}\label{sec-divisoes-b}
-Esta seção exemplifica o uso de divisões de documentos em conformidade com a ABNT NBR 6024  \cite{nbr6024}.
+\section{Document hierarchy}\label{sec-hierarchy-b}
+
+This section exemplifies the use of document divisions in accordance with ABNT NBR 6024 \cite{nbr6024}.
 % ---
 % ---
-\subsection{Divisões do documento: subseção}\label{sec-divisoes-subsection}
+\subsection{Document hierarchy: subsection}\label{sec-hierarchy-subsection}
 % ---
 
-Um exemplo de seção é a \autoref{sec-divisoes-b}. Esta é a \autoref{sec-divisoes-subsection}.
+An example section is \autoref{sec-hierarchy-b}. This is the \autoref{sec-divisions-subsection}.
 
-\subsubsection{Divisões do documento: subsubseção}\label{sec-divisoes-subsubsection}
+\subsubsection{Document hierarchy: subsubsection}\label{sec-hierarchy-subsubsection}
 
-Isto é uma \texttt{subsubsection} do \LaTeX, mas é denominada de ``subseção'' porque no português não temos a palavra ``subsubseção''.
+This is a \texttt{subsubsection} of \LaTeX.
 
-\subsubsection{Divisões do documento: subsubseção}
+\subsubsection{Document hierarchy: subsubsection}
 
-Isto é outra subsubseção.
+This is another sub-sub-section.
 
-\subsection{Divisões do documento: subseção}\label{sec-exemplo-subsec}
+\subsection{Document hierarchy: subsection}\label{sec-example-subsec}
 
-Isto é uma subseção.
+This is another sub-section.
 
-\subsubsection{Divisões do documento: subsubseção}
+\subsubsection{Document hierarchy: subsubsection}
 
-Isto é mais uma subsubseção da \autoref{sec-exemplo-subsec}.
+This is yet another sub-section of \autoref{sec-example-subsec}.
 
+\subsubsubsection{This is the fifth}\label{sec-example-subsubsubsection}
 
-\subsubsubsection{Esta é uma subseção de quinto
-nível}\label{sec-exemplo-subsubsubsection}
-
-Esta é uma seção de quinto nível. Ela é produzida com o seguinte comando:
+This is a fifth level section. It is produced with the following command:
 
 \begin{verbatim}
 \subsubsubsection{Esta é uma subseção de quinto
-nível}\label{sec-exemplo-subsubsubsection}
+nível}\label{sec-example-subsubsubsection}
 \end{verbatim}
 
-\subsubsubsection{Esta é outra subseção de quinto nível}\label{sec-exemplo-subsubsubsection-outro}
+\subsubsubsection{Esta é outra subseção de quinto nível}\label{sec-example-subsubsubsection-outro}
 
 Esta é outra seção de quinto nível.
 
 
-\paragraph{Este é um parágrafo numerado}\label{sec-exemplo-paragrafo}
+\paragraph{This is a numbered paragraph}\label{sec-example-paragrafo}
 
-Este é um exemplo de parágrafo nomeado. Ele é produzido com o comando de
-parágrafo:
+This is an example numbered paragraph. It is produced with the paragraph command:
 
 \begin{verbatim}
-\paragraph{Este é um parágrafo nomeado}\label{sec-exemplo-paragrafo}
+\paragraph{This is a numbered paragraph}\label{sec-example-paragrafo}
 \end{verbatim}
 
-A numeração entre parágrafos numerados e subsubsubseções são contínuas.
+The numbering between numbered paragraphs and sub-sub-subsections is continuous.
 
-\paragraph{Esta é outro parágrafo numerado}\label{sec-exemplo-paragrafo-outro}
+\paragraph{This is another numbered paragraph.}\label{sec-example-paragrafo-outro}
 
-Este é outro parágrafo nomeado.
+This is yet another numbered paragraph.
 
 % ---
-\subsection{Este é um exemplo de nome de subseção longa que se aplica a seções e demais divisões do documento. Ele deve estar alinhado à esquerda e a segunda e demais linhas devem iniciar logo abaixo da primeira palavra da primeira linha} 
+\subsection{This is an example of a long subsection name that applies to sections and other document hierarchy. It must be left-aligned and the second and other lines must start just below the first word of the first line} 
 
-Observe que o alinhamento do título obedece esta regra também no sumário.
-	
+Note that heading alignment follows this rule in the table of contents as well.	
 
 
 
